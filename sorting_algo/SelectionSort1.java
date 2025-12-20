@@ -1,3 +1,5 @@
+package sorting_algo;
+
 import java.util.Arrays;
 
 public class SelectionSort1 {
