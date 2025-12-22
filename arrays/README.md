@@ -8,3 +8,6 @@
   4. **Remove duplicate from sorted array**
   - **Logic** : single pass using two pointer technique to identify and overwrite the array
   - **complexity** : time : O(n)
+  5. **Rotate Array left by one element**
+  - **Logic** : using pointer to overwrite the previous element
+  - **complexity** : time : O(n) ; space : O(1) as single extra element used
