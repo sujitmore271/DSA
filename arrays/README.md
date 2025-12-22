@@ -11,3 +11,6 @@
   5. **Rotate Array left by one element**
   - **Logic** : using pointer to overwrite the previous element
   - **complexity** : time : O(n) ; space : O(1) as single extra element used
+  6. **Rotate Array left by K elements**
+  - **Logic**: learned from teacher (revisit)
+  - **complexity**: time : O(n) ; space : O(1)
