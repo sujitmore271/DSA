@@ -1,3 +1,4 @@
+package arrays.Easy_prob;
 class Solution {
     public int secondLargestElement(int[] nums) {
         int n = nums.length ;

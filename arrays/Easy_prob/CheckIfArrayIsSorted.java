@@ -1,4 +1,4 @@
-
+package arrays.Easy_prob;
 import java.util.ArrayList;
 
 public class CheckIfArrayIsSorted {

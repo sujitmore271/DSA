@@ -1,3 +1,4 @@
+package arrays.Easy_prob;
 class MoveZerosToEnd_Brute{
     public void moveZeroes(int[] nums) {
         int n = nums.length;
