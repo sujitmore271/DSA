@@ -19,3 +19,11 @@
   - complexity : time : O(n^2) 
   - optimal : use 2 pointer technique to ship the element
   - complexity : time : O(n)
+  8 **UNion of Sorted arrays**
+  - logic : set 2 pointer for each arrays and iterate and compare and add to array list 
+  - complexity: time: O(N1 + n2) 
+  9 **Find missing number**
+  - logic : find sum by formula then find sum and substract
+  - complexity : time o(n)
+  logic : if num is too big xor the number from 0 to n then xor array element the xor the xor
+  complexity : time O(n)
