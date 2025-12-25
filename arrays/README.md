@@ -25,5 +25,8 @@
   9 **Find missing number**
   - logic : find sum by formula then find sum and substract
   - complexity : time o(n)
-  logic : if num is too big xor the number from 0 to n then xor array element the xor the xor
-  complexity : time O(n)
+  -logic : if num is too big xor the number from 0 to n then xor array element the xor the xor
+   complexity : time O(n)
+  10 ** Consecutive ones**
+  - logic : loop ones with 2 variables and count them
+  - complexity : time : O(n)
