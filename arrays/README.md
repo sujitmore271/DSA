@@ -27,6 +27,9 @@
   - complexity : time o(n)
   -logic : if num is too big xor the number from 0 to n then xor array element the xor the xor
    complexity : time O(n)
-  10 ** Consecutive ones**
+  10 **Consecutive ones**
   - logic : loop ones with 2 variables and count them
   - complexity : time : O(n)
+  11 **Longest sub array with sum k**
+  - logic : sliding window with two pointers and sum while right pointer selects the boundry and left calculate sum with maxlen
+  - complexity : time O(2n)

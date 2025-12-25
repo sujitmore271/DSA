@@ -39,10 +39,10 @@ class Solution {
 }
 class UnionTwoSortedArrays{
     public static void main(String[] args) {
-        Solution s = new Solution();
+    
         int[] A ={2,3,5,6,7};
         int[] B = {1,3,4,6};
        
-        System.out.println( s.findUnion(A, B));
+        System.out.println( Solution.findUnion(A, B));
     }
 }
