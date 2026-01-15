@@ -55,3 +55,8 @@
 - complexity : brute_forec - o(n2)
              : optiaml O(n)
 --------------------------------
+2 **sort 0's , 1's and 2's**:
+- logic : brute- counting logic count numbers and replace
+        : optimal - Dutch National Flag Algorithm and  Three Pointer Technique
+-complexity : brute - O(2n)
+            : optimal - O(n)
