@@ -46,3 +46,12 @@
   - logic : sliding window with two pointers and sum while right pointer selects the boundry and left calculate sum with maxlen
   - complexity : time O(2n)
   --------------------------------
+
+# Arrays - Medium
+
+1 **Two sum** :
+- logic : brute force- two loop with two pointers
+          optimal - hashmap to store value and index and compare with next iterator
+- complexity : brute_forec - o(n2)
+             : optiaml O(n)
+--------------------------------
