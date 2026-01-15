@@ -10,6 +10,6 @@ class Solution {
             i++;
         }
         int miss = ans - sum ;
-        return miss;
+        return miss; 
     }
 }
