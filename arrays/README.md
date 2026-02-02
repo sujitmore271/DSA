@@ -60,3 +60,11 @@
         : optimal - Dutch National Flag Algorithm and  Three Pointer Technique
 -complexity : brute - O(2n)
             : optimal - O(n)
+---------------------------------
+3**majority element (>n/2)**:
+- logic : brute - use 2 loops to calculate all numbers
+        : better - use hashmap to store the values and frequency of element
+        : optimal - use boyer voting algo and just 2 varibals to count and check to solve the problem
+-complexity : brute - time complexity : O(n^2) and space 
+            : better - time complexity = O(n) and space = O(n)
+            : optimal - time complexity = O(n) and space = O(1)
