@@ -68,3 +68,9 @@
 -complexity : brute - time complexity : O(n^2) and space 
             : better - time complexity = O(n) and space = O(n)
             : optimal - time complexity = O(n) and space = O(1)
+---------------------------------
+4 **Kadanes algorithm**:
+- logic : running sum , reset the sum when it is <0 
+- complexity : brute : O(N^2)
+             : optimal : O(n)
+---------------------------------
