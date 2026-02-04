@@ -74,3 +74,7 @@
 - complexity : brute : O(N^2)
              : optimal : O(n)
 ---------------------------------
+5 ##Buy and sell Stocks 
+- logic : calculate running diff encounter highest price and calculate previous diff
+- complexity : brute : O(n^2)
+             : optimal : O(N)
