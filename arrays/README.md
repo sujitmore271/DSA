@@ -74,7 +74,11 @@
 - complexity : brute : O(N^2)
              : optimal : O(n)
 ---------------------------------
-5 ##Buy and sell Stocks## :
+5 **Buy and sell Stocks** :
 - logic : calculate running diff encounter highest price and calculate previous diff
 - complexity : brute : O(n^2)
              : optimal : O(N)
+---------------------------------
+6 **Next Permutation** :
+- logic : search for the reducing edge or pivot which is lower than next i.e i < i+1 then find next greater element than i and then arrange all elements decreasing order to make small number
+- complexity : O(N)
