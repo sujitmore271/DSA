@@ -82,3 +82,7 @@
 6 **Next Permutation** :
 - logic : search for the reducing edge or pivot which is lower than next i.e i < i+1 then find next greater element than i and then arrange all elements decreasing order to make small number
 - complexity : O(N)
+---------------------------------
+7 **Leaders in an Array** :
+- logic : note the maxSoFar from end and compare it with current elemnet if >= then update the leader and add 
+- complexity : O(N)
