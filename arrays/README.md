@@ -86,3 +86,7 @@
 7 **Leaders in an Array** :
 - logic : note the maxSoFar from end and compare it with current elemnet if >= then update the leader and add 
 - complexity : O(N)
+---------------------------------
+8 **Longest consecutive sequence in an arrya** :
+- logic : 
+- complexity :
