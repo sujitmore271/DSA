@@ -90,3 +90,9 @@
 8 **Longest consecutive sequence in an arrya** :
 - logic : 
 - complexity :
+---------------------------------
+9 **Set matrix zero**:
+- logic : better - create 2 markers row and column check 0 encountered and set the marker 0 and acc to whihc set    matrix to zero
+        optimal - use first first colm as row marker and first row as row marker mark according to 0 then change element onwards and if elemnt[0][0] is zero set col = 0(extra variable)
+ - complexity : better - O(N+M)
+              : optimal - O(1)
