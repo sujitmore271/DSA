@@ -96,3 +96,8 @@
         optimal - use first first colm as row marker and first row as row marker mark according to 0 then change element onwards and if elemnt[0][0] is zero set col = 0(extra variable)
  - complexity : better - O(N+M)
               : optimal - O(1)
+---------------------------------
+10 **Rotate Matrix By 90**
+- logic : first find transpose of matrix by swapping elemnts (cond: j>i) then reverse the rows
+- complexity :time- O(n2) , space - O(1)
+---------------------------------

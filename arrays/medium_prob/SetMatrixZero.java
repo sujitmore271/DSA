@@ -32,7 +32,7 @@ class SetMatrixZeroes {
         int m = matrix[0].length;
         int col0 = 1; // Tracker for the first column
 
-        // Step 1: Traverse the matrix and mark 1st row/col
+
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
                 if (matrix[i][j] == 0) {
@@ -48,8 +48,7 @@ class SetMatrixZeroes {
             }
         }
 
-        // Step 2: Fill the matrix with zeros using the markers
-        // (We skip the first row/col for now to avoid losing our "notes")
+        
         for (int i = 1; i < n; i++) {
             for (int j = 1; j < m; j++) {
                 if (matrix[i][0] == 0 || matrix[0][j] == 0) {
@@ -58,7 +57,7 @@ class SetMatrixZeroes {
             }
         }
 
-        // Step 3: Finally, handle the first row and first column
+       
         if (matrix[0][0] == 0) {
             for (int j = 0; j < m; j++) matrix[0][j] = 0;
         }
