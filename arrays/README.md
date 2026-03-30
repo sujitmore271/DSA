@@ -101,3 +101,7 @@
 - logic : first find transpose of matrix by swapping elemnts (cond: j>i) then reverse the rows
 - complexity :time- O(n2) , space - O(1)
 ---------------------------------
+11 **Print Matrix IN spiral Manner**
+- logic : create 4 var top , bottom , left , right and at each step decrease the border to print inside layer
+- complexity : time - O(m X n)
+---------------------------------
