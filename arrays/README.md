@@ -105,3 +105,6 @@
 - logic : create 4 var top , bottom , left , right and at each step decrease the border to print inside layer
 - complexity : time - O(m X n)
 ---------------------------------
+12 **Boyer Moore**
+- logic :create a leader and a count and count the majorith element increase count if it is encountered or vice versa
+- complexity : time - o(n)
