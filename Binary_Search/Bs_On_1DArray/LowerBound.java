@@ -1,4 +1,4 @@
-package Binary_Search;
+package Binary_search.Bs_On_1DArray;
 
 public class LowerBound {
     public static int lowerBound(int[] nums , int target){

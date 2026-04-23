@@ -1,67 +1,67 @@
 # Arrays - Easy
- 1 **Largest Element**:
+ 1. **Largest Element**:
  -brute force : O(n^2) (insertion sort)
  - Optimal : O(n) (liner scan)
  --------------------------------
-2 **Second Largest Element** :
+2. **Second Largest Element** :
    - **Logic**: Single pass using `largest` and `secondLargest` variables to handle duplicates.
    - **Complexity**: Time: $O(n)$ | Space: $O(1)$
  --------------------------------
-3 **none**:
+3. **none**:
   nothing.
  ---------------------------------
-4 **Remove duplicate from sorted array**:
+4. **Remove duplicate from sorted array**:
   - **Logic** : single pass using two pointer technique to identify and overwrite the array
   - **complexity** : time : O(n)
   --------------------------------
-5 **Rotate Array left by one element**:
+5. **Rotate Array left by one element**:
   - **Logic** : using pointer to overwrite the previous element
   - **complexity** : time : O(n) ; space : O(1) as single extra element used
   --------------------------------
- 6 **Rotate Array left by K elements**:
+ 6. **Rotate Array left by K elements**:
   - **Logic**: learned from teacher (revisit)
   - **complexity**: time : O(n) ; space : O(1)
   --------------------------------
-7 **MOVE ZEROS TO END**:
+7. **MOVE ZEROS TO END**:
   -brute force : use 2 loops and a counter to keep track 
   - complexity : time : O(n^2) 
   - optimal : use 2 pointer technique to ship the element
   - complexity : time : O(n)
   --------------------------------
-  8 **UNion of Sorted arrays**:
+8. **UNion of Sorted arrays**:
   - logic : set 2 pointer for each arrays and iterate and compare and add to array list 
   - complexity: time: O(N1 + n2) 
   --------------------------------
-  9 **Find missing number**:
+9. **Find missing number**:
   - logic : find sum by formula then find sum and substract
   - complexity : time o(n)
   -logic : if num is too big xor the number from 0 to n then xor array element the xor the xor
    complexity : time O(n)
    --------------------------------
-  10 **Consecutive ones**:
+  10. **Consecutive ones**:
   - logic : loop ones with 2 variables and count them
   - complexity : time : O(n)
   --------------------------------
-  11 **Longest sub array with sum k** :
+  11. **Longest sub array with sum k** :
   - logic : sliding window with two pointers and sum while right pointer selects the boundry and left calculate sum with maxlen
   - complexity : time O(2n)
   --------------------------------
 
 # Arrays - Medium
 
-1 **Two sum** :
+1. **Two sum** :
 - logic : brute force- two loop with two pointers
           optimal - hashmap to store value and index and compare with next iterator
 - complexity : brute_forec - o(n2)
              : optiaml O(n)
 --------------------------------
-2 **sort 0's , 1's and 2's**:
+2. **sort 0's , 1's and 2's**:
 - logic : brute- counting logic count numbers and replace
         : optimal - Dutch National Flag Algorithm and  Three Pointer Technique
 -complexity : brute - O(2n)
             : optimal - O(n)
 ---------------------------------
-3**majority element (>n/2)**:
+3. **majority element (>n/2)**:
 - logic : brute - use 2 loops to calculate all numbers
         : better - use hashmap to store the values and frequency of element
         : optimal - use boyer voting algo and just 2 varibals to count and check to solve the problem
@@ -69,42 +69,42 @@
             : better - time complexity = O(n) and space = O(n)
             : optimal - time complexity = O(n) and space = O(1)
 ---------------------------------
-4 **Kadanes algorithm**:
+4. **Kadanes algorithm**:
 - logic : running sum , reset the sum when it is <0 
 - complexity : brute : O(N^2)
              : optimal : O(n)
 ---------------------------------
-5 **Buy and sell Stocks** :
+5. **Buy and sell Stocks** :
 - logic : calculate running diff encounter highest price and calculate previous diff
 - complexity : brute : O(n^2)
              : optimal : O(N)
 ---------------------------------
-6 **Next Permutation** :
+6. **Next Permutation** :
 - logic : search for the reducing edge or pivot which is lower than next i.e i < i+1 then find next greater element than i and then arrange all elements decreasing order to make small number
 - complexity : O(N)
 ---------------------------------
-7 **Leaders in an Array** :
+7. **Leaders in an Array** :
 - logic : note the maxSoFar from end and compare it with current elemnet if >= then update the leader and add 
 - complexity : O(N)
 ---------------------------------
-8 **Longest consecutive sequence in an arrya** :
+8. **Longest consecutive sequence in an arrya** :
 - logic : 
 - complexity :
 ---------------------------------
-9 **Set matrix zero**:
+9. **Set matrix zero**:
 - logic : better - create 2 markers row and column check 0 encountered and set the marker 0 and acc to whihc set    matrix to zero
         optimal - use first first colm as row marker and first row as row marker mark according to 0 then change element onwards and if elemnt[0][0] is zero set col = 0(extra variable)
  - complexity : better - O(N+M)
               : optimal - O(1)
 ---------------------------------
-10 **Rotate Matrix By 90**
+10. **Rotate Matrix By 90**
 - logic : first find transpose of matrix by swapping elemnts (cond: j>i) then reverse the rows
 - complexity :time- O(n2) , space - O(1)
 ---------------------------------
-11 **Print Matrix IN spiral Manner**
+11. **Print Matrix IN spiral Manner**
 - logic : create 4 var top , bottom , left , right and at each step decrease the border to print inside layer
 - complexity : time - O(m X n)
 ---------------------------------
-12 **Boyer Moore**
+12. **Boyer Moore**
 - logic :create a leader and a count and count the majorith element increase count if it is encountered or vice versa
 - complexity : time - o(n)
