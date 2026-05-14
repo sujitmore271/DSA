@@ -7,9 +7,10 @@ class FindCubertOfNumber{
             ans = ans * mid;
             if (ans > m) return 2; 
         if (ans == m) return 1;
-        return 0;
+        
     }
-
+    return 0;
+   }
     public static int NthRoot(int n, int m) {
         int low = 1, high = m;
 

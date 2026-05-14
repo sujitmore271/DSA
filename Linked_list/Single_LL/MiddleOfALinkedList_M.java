@@ -8,7 +8,7 @@ class Node{
         this.next = null;
     }
 }
-public class MiddleOfALinkedList {
+public class MiddleOfALinkedList_M {
     //brute force
     public static Node findMiddle2Loops(Node head){
 
