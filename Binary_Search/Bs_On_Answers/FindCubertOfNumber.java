@@ -1,3 +1,4 @@
+package Binary_search.Bs_On_Answers;
 class FindCubertOfNumber{
 
    public static int func(int mid, int n, int m) {

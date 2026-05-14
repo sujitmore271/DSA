@@ -1,6 +1,5 @@
 package Binary_search.Bs_On_Answers;
 
-import java.util.*;
 public class FindSqrtOfNumber {
     public static int num(int n){
         int low = 1 , high = n;
