@@ -6,3 +6,8 @@
  --------------------------------
  2. **Detect A Loop In LL**:
   - complexity : optimal O(n) and space complesity : o(1)
+  --------------------------------
+ 3. **Find Starting Point In LOOP in LL**:
+  - complexity : optimal O(n) and space complesity : o(1)
+  - note : floyd's algo
+
