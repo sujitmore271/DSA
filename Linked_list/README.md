@@ -22,6 +22,14 @@
   -----------------------------------
   7. **Add Two Numbers IN LL** :
   - complexity : `O(max(N,M))`
+    -----------------------------------
+  8. **Remove Duplicates From Sorted LL**:
+  - complexity : O(n)
+    -----------------------------------
+  9. **Find Intersection Of y**:
+  - complexity :
+        - brute force : time complexity O(N+M) and space complexity O(n)
+        - optimal : time complexity O(N+M) and space complexity O(1)
 
 
 
