@@ -1,4 +1,5 @@
-package Binary_search.Bs_On_Answers;
+package Binary_Search.Bs_On_Answers;
+
 
 public class MinDayToMakeMBouquets {
     public static int dayToMake(int n , int[] nums , int m , int k){

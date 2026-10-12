@@ -1,4 +1,4 @@
-package Binary_search.Bs_On_Answers;
+package Binary_Search.Bs_On_Answers;
 
 public class CapacityOfShipPackageWithinDDays {
     public static int shipWithindDays(int[] weights , int days){

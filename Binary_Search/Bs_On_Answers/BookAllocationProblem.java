@@ -1,4 +1,4 @@
-package Binary_search.Bs_On_Answers;
+package Binary_Search.Bs_On_Answers;
 
 public class BookAllocationProblem {
     public static int findPages(int[] nums , int k){

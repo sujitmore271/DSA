@@ -1,4 +1,5 @@
-package Binary_search.Bs_On_Answers;
+package Binary_Search.Bs_On_Answers;
+
 
 class KoKoEatingBananas{
     public static int minimumRateToEatBananas(int[] nums, int h) {
